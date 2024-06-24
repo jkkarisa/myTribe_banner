@@ -1,10 +1,1 @@
-#tasks:
- # - init: |
-      #pip install colorama
-      #mkdir -p ~/scripts
-      #echo -e 'from colorama import init, Fore, Style\n\ndef display_banner():\n    init(autoreset=True)\n    banner = r"""\n     ____ _                 _                _____     _ _          \n    / ___| | ___  _   _  __| |_ __ ___  _   |_   _| __(_) |__   ___ \n   | |   | |/ _ \| | | |/ _` | ''_ ''_ \\| | | || || ''__| | ''_ \\ / _ \\\n   | |___| | (_) | |_| | (_| | | | | | | |_| || || |  | | |_) |  __/\n    \\____|_|\\___/ \\__,_|\\__,_|\n_|\n|___|\n    Welcome to CloudmyTribe!\n    """\n    print(Fore.MAGENTA + banner)\n\nif __name__ == "__main__":\n    display_banner()' > ~/scripts/cloudmytribe_banner.py
-      #chmod +x ~/scripts/cloudmytribe_banner.py
-      #echo -e '\n# Display CloudmyTribe banner on terminal start and clear screen\npython3 ~/scripts/cloudmytribe_banner.py\n\n# Alias clear command to keep the banner visible\nalias clear="clear && python3 ~/scripts/cloudmytribe_banner.py"\n' >> ~/.bashrc
-      #echo -e '\n# Display CloudmyTribe banner on terminal start and clear screen\npython3 ~/scripts/cloudmytribe_banner.py\n\n# Alias clear command to keep the banner visible\nalias clear="clear && python3 ~/scripts/cloudmytribe_banner.py"\n' >> ~/.zshrc
-      #source ~/.bashrc || source ~/.zshrc
 
