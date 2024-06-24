@@ -133,4 +133,4 @@ If you encounter any issues or need further assistance, feel free to ask the dev
 This project is licensed under the MIT License.
 ```
 
-Save this content into a file named `README.md` in your project directory. This file provides clear, step-by-step instructions for setting up the CloudmyTribe banner in the terminal using Gitpod, including installing dependencies, creating and editing the script, and configuring the terminal to run the script on startup and after clearing the screen.
+This file provides clear, step-by-step instructions for setting up the CloudmyTribe banner in the terminal using Gitpod, including installing dependencies, creating and editing the script, and configuring the terminal to run the script on startup and after clearing the screen.
